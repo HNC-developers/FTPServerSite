@@ -1,0 +1,124 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f5f6fa;
+}
+
+/* font-family: 'Alata', sans-serif;
+font-family: 'Baloo Tamma 2', cursive; */
+
+.main-header {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  font-size: 50px;
+  background-color: #0984e3;
+  color: #fff;
+  font-family: "Baloo Tamma 2", cursive;
+  justify-content: center;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.main-header:hover {
+  background-color: #1c97f5;
+}
+
+.headerLogo {
+  width: 50%;
+  padding: 5px;
+  margin-left: 40px;
+  background-color: #fff;
+}
+
+.container {
+  width: 80%;
+  background-color: #fff;
+  border: solid #b3b3b3 1px;
+  margin: 0 auto;
+}
+
+.primary-header {
+  font-family: "Alata", sans-serif;
+  color: #000;
+  font-size: 30px;
+  margin-top: 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #1c97f5;
+}
+
+a:hover {
+  color: #1c97f5;
+  text-decoration: underline;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.server {
+  height: 60%;
+}
+
+.step-paragraph {
+  font-family: "Alata", sans-serif;
+  font-size: 18px;
+}
+
+.method-title {
+  font-size: 23px;
+  border-bottom: #000 1px solid;
+}
+
+.step-title {
+  font-family: "Baloo Tamma 2", cursive;
+  font-size: 23px;
+  border-left: #0984e3 10px solid;
+  padding-left: 20px;
+  color: #0984e3;
+}
+
+.method1 {
+  font-family: "Baloo Tamma 2", cursive;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.browser {
+  width: 90%;
+  border: #b3b3b3 1px solid;
+}
+
+.fileexplorer {
+  height: 80%;
+  border: #b3b3b3 1px solid;
+}
+
+.run {
+  width: 40%;
+}
+
+.footer {
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  background-color: #2c3e50;
+  z-index: 20;
+}
+
+.footerlink {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footerlink:hover {
+  color: #b3b3b3;
+  font-size: 22px;
+  text-decoration: none;
+}
